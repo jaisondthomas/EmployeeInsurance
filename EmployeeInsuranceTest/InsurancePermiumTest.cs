@@ -145,11 +145,7 @@ namespace EmployeeInsuranceTest
            Assert.IsTrue(result.Count==0);
         }
 
-        [TestMethod]
-        public void CommitTest()
-        {
-            
-        }
+     
 
 
     }
