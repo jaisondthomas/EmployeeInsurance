@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using Entities;
-using Forecaster.Entities;
 using Forecaster.Interfaces;
 
 namespace Forecaster.Test
