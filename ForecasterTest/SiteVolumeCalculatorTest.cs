@@ -517,7 +517,11 @@ namespace ForecasterTest
             Assert.AreEqual(250, actualResult);
         }
 
-      
+        [TestMethod]
+        public void SampleTest()
+        {
+            
+        }
 
 
 
