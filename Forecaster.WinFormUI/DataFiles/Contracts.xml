@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contracts>
+  <Contract>
+    <Id>1</Id>
+    <ClientId>30</ClientId>
+    <StartDate>2016-01-01</StartDate>
+    <EndDate>2016-02-01</EndDate>
+  </Contract>
+  <Contract>
+    <Id>2</Id>
+    <ClientId>30</ClientId>
+    <StartDate>2015-01-01</StartDate>
+    <EndDate>2015-02-01</EndDate>
+  </Contract>
+ </Contracts>  
+
+

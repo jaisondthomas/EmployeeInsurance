@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContractProducts>
+  <ContractProduct>
+    <Id>3</Id>
+    <ContractAmendmentId>1</ContractAmendmentId>
+  </ContractProduct>
+  <ContractProduct>
+    <Id>4</Id>
+    <ContractAmendmentId>1</ContractAmendmentId>
+  </ContractProduct>
+</ContractProducts>
