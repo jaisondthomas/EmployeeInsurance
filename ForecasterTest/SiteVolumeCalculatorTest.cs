@@ -372,7 +372,7 @@ namespace ForecasterTest
 
         
         [TestMethod]
-        public void IsCurrentContractHasSomeVolume()
+        public void IsContractHasSomeVolume()
         {
 
 
@@ -381,7 +381,7 @@ namespace ForecasterTest
             var volumes = ContractProductSiteVolumeReaderStub.SomeVolumes();
 
             var actualResult =
-                SiteVolumeCalculator.IsCurrentContractHasSomeVolume(contract, volumes);
+                SiteVolumeCalculator.IsContractHasSomeVolume(contract, volumes);
 
             Assert.AreEqual(true, actualResult);
         }

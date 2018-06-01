@@ -179,7 +179,7 @@ namespace Forecaster.VolumeForecaster
         }
 
 
-        public static bool IsCurrentContractHasSomeVolume(
+        public static bool IsContractHasSomeVolume(
             ContractAmendment currentContract,
             List<SiteVolume> siteVolumes)
         {
@@ -304,7 +304,7 @@ namespace Forecaster.VolumeForecaster
             }
 
             var contractHasSomeVolume =
-                IsCurrentContractHasSomeVolume(contract, siteVolumes) &&
+                IsContractHasSomeVolume(contract, siteVolumes) &&
                 IsContractHasStartDate(contract) &&
                 !IsAllVolumesExistForTheContract(missingBillingMonths) &&
                 !IsNoVolumeContract(siteVolumesForTheContract);
