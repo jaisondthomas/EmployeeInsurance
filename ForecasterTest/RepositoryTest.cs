@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ForecasterTest
 {
     [TestClass]
-    public class RepositoryInteractorTest
+    public class RepositoryTest
     {
         [TestMethod]
         public void AllContracts()

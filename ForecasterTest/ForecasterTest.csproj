@@ -56,7 +56,7 @@
     <Compile Include="ContractProductSiteReaderTest.cs" />
     <Compile Include="ContractProductSiteVolumeReaderTest.cs" />
     <Compile Include="ContractReaderTest.cs" />
-    <Compile Include="RepositoryInteractorTest.cs" />
+    <Compile Include="RepositoryTest.cs" />
     <Compile Include="SiteVolumeCalculatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

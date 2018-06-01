@@ -28,17 +28,11 @@ namespace ForecasterTest
         [TestMethod]
         public void ReadContracts()
         {
-           
-
             var result = ContractData.ReadContracts();
-
-
             Assert.AreEqual(1, result.ElementAt(0).Id);
             Assert.AreEqual(30, result.ElementAt(0).ClientId);
             Assert.AreEqual(new DateTime(2017, 1, 1), result.ElementAt(0).StartDate);
             Assert.AreEqual(new DateTime(2018, 1, 1), result.ElementAt(0).EndDate);
-
-
         }
 
 
@@ -95,7 +89,6 @@ namespace ForecasterTest
 
         }
 
-        //ContractId test
         [TestMethod]
         public void ContractIdIsEmptyString()
         {
